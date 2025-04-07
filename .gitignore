@@ -1,10 +1,2 @@
-# Ignore everything
-*
-
-# But not these files...
-!.gitignore
-!main.py
-!requirements.txt
-!.github/
-!.github/workflows/
-!.github/workflows/build.yml
+# Ignore everything under .venv
+.venv/
