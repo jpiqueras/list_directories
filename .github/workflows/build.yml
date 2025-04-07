@@ -25,7 +25,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Build EXE
-        run: pyinstaller --onefile list_directories main.py
+        run: pyinstaller --onefile --name list_directories main.py
 
       - name: Upload release
         uses: softprops/action-gh-release@v2
