@@ -4,7 +4,7 @@ A graphical user interface (GUI) application for listing directories and optiona
 
 ## Usage
 
-1. Go to the [releases](https://github.com/jpiqueras/list-directories/releases) section and download the last executable file.
+1. Go to the [releases](https://github.com/jpiqueras/list_directories/releases/) section and download the last executable file.
 2. Exceute the program.
 
 
