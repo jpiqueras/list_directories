@@ -30,6 +30,10 @@ jobs:
       - name: Upload release
         uses: softprops/action-gh-release@v2
         with:
+          tag_name: ${{ github.ref_name }}
+          name: Release ${{ github.ref_name }}
+          draft: false
+          prerelease: false
           files: dist/list_directories.exe
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
